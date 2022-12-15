@@ -1,0 +1,70 @@
+.text a:active {
+    height: 60px;
+    width: 202px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9C4DF4;
+    border: 2px solid;
+    border-color: #9C4DF4;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: rgba(255, 255, 255, 1);
+
+
+}
+
+.text a {
+    height: 60px;
+    width: 202px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #9C4DF4;
+
+
+
+    margin: -300px auto 1000px auto;
+}
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1022px) {
+    .text a {
+        height: 60px;
+        width: 202px;
+        border-radius: 10px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgba(255, 255, 255, 1);
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+        background: #9C4DF4;
+
+
+
+        margin: -300px auto 1000px auto;
+    }
+}

@@ -1,0 +1,190 @@
+.icon-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+    &__icon-center1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        width: 333.3333435058594px;
+        background-color: rgba(255, 255, 255, 0.2);
+        box-shadow: 0px 50px 170px rgba(0, 0, 0, 0.05);
+        margin-right: 30px;
+        border-radius: 10px;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding-right: 40px;
+        color: rgba(10, 3, 60, 1);
+        cursor: pointer;
+
+        &__img {
+            height: 70px;
+            width: 70px;
+            margin-right: 20px;
+
+        }
+    }
+
+    &__icon-center2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        width: 333.3333435058594px;
+        background-color: rgba(255, 255, 255, 0.2);
+        box-shadow: 0px 50px 170px rgba(0, 0, 0, 0.05);
+        color: rgba(10, 3, 60, 1);
+        margin-right: 30px;
+        border-radius: 10px;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding-right: 40px;
+        cursor: pointer;
+
+        &__img {
+            height: 70px;
+            width: 70px;
+            margin-right: 20px;
+
+        }
+    }
+
+    &__icon-center3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        width: 333.3333435058594px;
+        background-color: rgba(255, 255, 255, 0.2);
+        box-shadow: 0px 50px 170px rgba(0, 0, 0, 0.05);
+        color: rgba(10, 3, 60, 1);
+        border-radius: 10px;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding-right: 40px;
+        cursor: pointer;
+
+        &__img {
+            height: 70px;
+            width: 70px;
+            margin-right: 20px;
+
+        }
+    }
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1022px) {
+    .icon-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+
+        &__icon-center1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 84px;
+            width: 241px;
+
+            border-radius: 10px;
+
+            background-color: rgba(255, 255, 255, 0.2);
+            box-shadow: 0px 50px 170px rgba(0, 0, 0, 0.05);
+            margin-right: 25px;
+            font-size: 25px;
+            font-weight: 600;
+            line-height: 20px;
+            letter-spacing: 0em;
+            text-align: left;
+            padding-right: 40px;
+            color: rgba(10, 3, 60, 1);
+            cursor: pointer;
+
+            &__img {
+                height: 44px;
+                width: 44px;
+
+                border-radius: 5px;
+
+                margin-right: 20px;
+
+            }
+        }
+
+        &__icon-center2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 84px;
+            width: 241px;
+
+
+            background-color: rgba(255, 255, 255, 0.2);
+            box-shadow: 0px 50px 170px rgba(0, 0, 0, 0.05);
+            color: rgba(10, 3, 60, 1);
+            margin-right: 25px;
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 25px;
+            letter-spacing: 0em;
+            text-align: left;
+            padding-right: 20px;
+            cursor: pointer;
+
+            &__img {
+                height: 44px;
+                width: 44px;
+
+                border-radius: 5px;
+
+                margin-right: 20px;
+
+            }
+        }
+
+        &__icon-center3 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 84px;
+            width: 241px;
+            background-color: rgba(255, 255, 255, 0.2);
+            box-shadow: 0px 50px 170px rgba(0, 0, 0, 0.05);
+            color: rgba(10, 3, 60, 1);
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 20px;
+            letter-spacing: 0em;
+            text-align: left;
+            padding-right: 20px;
+            cursor: pointer;
+
+            &__img {
+                height: 44px;
+                width: 44px;
+
+                border-radius: 5px;
+
+                margin-right: 20px;
+
+            }
+        }
+    }
+}

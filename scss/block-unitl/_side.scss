@@ -1,0 +1,121 @@
+.side {
+    height: 270px;
+    width: 1280px;
+    background-color: rgba(239, 235, 245, 1);
+    border-radius: 20px;
+    margin: 30px auto 0px auto;
+
+    &__text {
+        position: absolute;
+        color: rgba(156, 77, 244, 1);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-align: left;
+        text-decoration: none;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+
+    &__div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        &__ul {
+            margin-right: 243px;
+
+            &__li:nth-child(1) {
+                color: rgba(10, 3, 60, 1);
+                font-size: 45px;
+                font-weight: 600;
+                line-height: 50px;
+                letter-spacing: 0em;
+                text-align: left;
+
+            }
+
+            &__li:nth-child(2) {
+                color: rgba(10, 3, 60, 1);
+                font-size: 45px;
+                font-weight: 600;
+                line-height: 50px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+        }
+
+        &__image {
+            margin-top: 40px;
+            height: 210px;
+            width: 374px;
+
+
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1022px) {
+    .side {
+        height: 270px;
+        width: 944px;
+
+        background-color: rgba(239, 235, 245, 1);
+        border-radius: 20px;
+        margin: 30px auto 0px auto;
+
+        &__text {
+            position: absolute;
+            color: rgba(156, 77, 244, 1);
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 16px;
+            letter-spacing: 0.03em;
+            text-align: left;
+            text-decoration: none;
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+
+        &__div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+            &__ul {
+                margin-right: 125px;
+
+                &__li:nth-child(1) {
+                    color: rgba(10, 3, 60, 1);
+                    font-size: 35px;
+                    font-weight: 600;
+                    line-height: 40px;
+                    letter-spacing: 0em;
+                    text-align: left;
+
+
+                }
+
+                &__li:nth-child(2) {
+                    color: rgba(10, 3, 60, 1);
+                    font-size: 35px;
+                    font-weight: 600;
+                    line-height: 40px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                }
+            }
+
+            &__image {
+                margin-top: 40px;
+                height: 210px;
+                width: 374px;
+
+
+            }
+        }
+    }
+}

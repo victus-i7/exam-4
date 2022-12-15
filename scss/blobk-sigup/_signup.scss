@@ -1,0 +1,196 @@
+.signup {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 1060px;
+    background-color: rgb(244, 240, 248);
+    border-radius: 15px;
+    margin: 120px auto 0px auto;
+
+    &__ul {
+        margin-right: 87px;
+
+        &__li:nth-child(1) img {
+            height: 20px;
+            width: 80px;
+            margin-bottom: 15px;
+
+        }
+
+        &__li:nth-child(2) {
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 50px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: rgba(10, 3, 60, 1);
+        }
+
+        &__li:nth-child(3) {
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 50px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: rgba(10, 3, 60, 1);
+        }
+
+        &__li:nth-child(4) {
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 50px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: rgba(10, 3, 60, 1);
+            margin-bottom: 30px;
+        }
+
+        &__li:nth-child(5) img {
+            height: 336px;
+            width: 332px;
+            margin-bottom: 30px;
+
+        }
+
+        &__li:nth-child(6) img {
+            height: 10px;
+            width: 36px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+        }
+
+    }
+
+
+
+
+
+
+
+    &__list {
+        margin-left: 80px;
+
+        &__item {
+            &__google {
+                display: flex;
+                align-items: center;
+                margin: 0 auto;
+                background-color: rgb(255, 255, 255);
+                height: 50px;
+                width: 340px;
+                color: rgba(93, 90, 111, 1);
+                border-radius: 10px;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 30px;
+                letter-spacing: 0em;
+                text-align: left;
+                border: solid 1px gray;
+
+                &__goo {
+                    margin: 5px 20px 5px 5px;
+                }
+
+                &__goo img {
+                    height: 40px;
+                    width: 40px;
+                    border-radius: 7px;
+                }
+            }
+
+            &__email1 {
+                margin-top: 20px;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 30px;
+                letter-spacing: 0em;
+                text-align: center;
+                color: rgba(93, 90, 111, 1);
+            }
+        }
+
+
+
+        &__item1 {
+
+            &__label {
+                border-radius: 10px;
+                height: 50px;
+                width: 370px;
+                padding-left: 20px;
+            }
+
+            &__label1 {
+                border-radius: 10px;
+                height: 50px;
+                width: 370px;
+                padding: 20px;
+            }
+
+
+        }
+
+
+        &__item1 {
+            &__btn {
+                height: 50px;
+                width: 370px;
+                background: rgba(156, 77, 244, 1);
+                border-radius: 10px;
+                color: rgba(255, 255, 255, 1);
+                margin-top: 25px;
+                margin-bottom: 20px;
+            }
+
+            &__btn:active {
+                height: 50px;
+                width: 370px;
+                background: rgba(255, 255, 255, 1);
+                border-radius: 10px;
+                color: rgba(156, 77, 244, 1);
+                border: 2px solid;
+                border-color: rgba(156, 77, 244, 1);
+            }
+
+
+        }
+
+        &__item11 {
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: rgba(10, 3, 60, 1);
+            margin-top: 20px;
+            margin-bottom: 5px;
+        }
+
+        &__item111 {
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: rgba(10, 3, 60, 1);
+            margin-top: 15px;
+            margin-bottom: 5px;
+        }
+
+        &__item12 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: red;
+        }
+
+        &__item12 a {
+            text-decoration: none;
+            color: green;
+            margin-left: 5px;
+        }
+    }
+}

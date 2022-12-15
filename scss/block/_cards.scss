@@ -1,0 +1,161 @@
+.cards {
+    &__image {
+        height: 540px;
+        width: 1000px;
+
+        border-radius: 20px;
+        position: relative;
+
+        margin: 25px;
+    }
+
+
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 50px 170px rgba(0, 0, 0, 0.05);
+    height: 600px;
+    width: 1060px;
+
+
+
+
+    border-radius: 10px;
+
+
+    margin: 60px auto 0px auto;
+
+
+
+    &__ul {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        width: 940px;
+        position: relative;
+        top: -300px;
+        margin: 0 auto;
+
+        &__li:nth-child(1) {
+            background-color: #fff;
+            border-radius: 10px;
+            height: 216px;
+            width: 180px;
+
+
+
+
+
+
+
+        }
+
+        &__li img:nth-child(1) {
+
+
+            height: 194.39999389648438px;
+            width: 158.39999389648438px;
+
+            border-radius: 10px;
+
+
+
+
+
+
+            margin: 10px;
+
+
+        }
+
+        &__li:nth-child(2) a img {
+            height: 60px;
+            width: 60px;
+
+
+        }
+
+        &__li:nth-child(3) a img {
+            height: 60px;
+            width: 60px;
+        }
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1022px) {
+    .cards {
+        &__image {
+            height: 438px;
+            width: 814px;
+
+            border-radius: 10px;
+
+            position: relative;
+
+            margin: 25px;
+        }
+
+
+        background-color: rgba(255, 255, 255, 0.2);
+        box-shadow: 0px 50px 170px rgba(0, 0, 0, 0.05);
+        border-radius: 10px;
+        height: 488px;
+        width: 864px;
+
+        border-radius: 10px;
+
+
+        margin: 60px auto 0px auto;
+
+
+
+        &__ul {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            width: 724px;
+            position: relative;
+            top: -180px;
+            margin: 0 auto;
+
+            &__li:nth-child(1) {
+                background-color: #fff;
+                border-radius: 10px;
+                height: 124.80000305175781px;
+                width: 104px;
+
+
+
+
+
+            }
+
+            &__li img:nth-child(1) {
+
+
+                height: 112.31999969482422px;
+                width: 91.5199966430664px;
+
+                border-radius: 5px;
+
+
+
+
+                margin: 6px;
+
+
+            }
+
+            &__li:nth-child(2) a img {
+                height: 60px;
+                width: 60px;
+
+
+            }
+
+            &__li:nth-child(3) a img {
+                height: 60px;
+                width: 60px;
+            }
+        }
+    }
+}
